@@ -1,7 +1,7 @@
-tabla: acceso
+Tabla: acceso
 id,"id_registro","fecha_acceso","usuario"
 
-tabla: categoria
+Tabla: categoria
 id,"categoria"
 1,"Participante"
 2,"Staff"
@@ -13,34 +13,34 @@ id,"categoria"
 8,"Partner"
 9,"Voluntario"
 
-tabla: documento
+Tabla: documento
 id,"des_documento"
 1,"DNI"
 2,"RUC"
 3,"CE"
 
-tabla: logs
+Tabla: logs
 id,"id_registro","accion","detalle","fecha"
 
-tabla: nivel_acceso
+Tabla: nivel_acceso
 id,"des_nivel_acceso"
 1,"administrador"
 2,"registro"
 3,"acceso"
 
-tabla: personas
-id,"id_categoria","id_documento","nro_documento","apellido_paterno","apellido_materno","nombres","pais","empresa","cargo","telefono","email","data01","data02","data03","data04","data05","fecha_ingreso"
+Tabla: personas
+id,"id_categoria","id_documento","nro_documento","apellido_paterno","apellido_materno","nombres","pais","empresa","cargo","telefono","email","data01","data02","data03","data04","data05","fecha_ingreso","estado"
 
-tabla: plantillas_impresion
+Tabla: plantillas_impresion
 id,"nombre","configuracion","fecha_creacion","fecha_actualizacion"
 
-tabla: registro
+Tabla: registro
 id,"id_persona","fecha_registro","impreso","id_plantilla"
 
-tabla: registros_impresion
+Tabla: registro_impresion
 id,"id_registro","id_plantilla","fecha_impresion","usuario"
 
-tabla: usuarios
+Tabla: usuarios
 id,"user_name","password","id_nivel_acceso"
 1,"ADMIN","$2y$10$DavFHOcbD3DAQHxci2xqbutedc7K3UQKP9V2yuKvS9GOYj11Vi4Be","1"
 2,"JOAN","$2y$10$.rBrsAM3E4v41APm6ZP2P.J1PRE2NB3xu16m6KgU8kW2LuDjRCgcW","2"
