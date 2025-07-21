@@ -1,0 +1,73 @@
+/registro_evento/
+│
+├── /assets/
+│   ├── /css/
+│   │   └── style.css	
+│   │
+│   ├── /js/
+│   │   └── main.js
+│   │
+│   └── /images/
+│       ├── fondo1.jpg
+│       ├── fondo2.jpg
+│       └── logo.png
+│
+├── /includes/
+│   ├── auth.php
+│   ├── config.php
+│   ├── database.php
+│   ├── footer.php
+│   ├── functions.php
+│   ├── header.php
+│   └── init.php
+│
+├── /uploads/
+│
+├── /admin/
+│   ├── acceso_no_permitido.php
+│   ├── admin_plantillas.php
+│   ├── crear_categoria.php
+│   ├── crear_documento.php
+│   ├── crear_nivel_acceso.php
+│   ├── crear_plantilla.php
+│   ├── crear_usuario.php
+│   ├── editar_categoria.php
+│   ├── editar_documento.php
+│   ├── editar_nivel_acceso.php
+│   ├── editar_plantilla.php
+│   ├── editar_usuario.php
+│   ├── eliminar_categoria.php
+│   ├── eliminar_documento.php
+│   ├── eliminar_nivel_acceso.php
+│   ├── eliminar_plantilla.php  
+│   ├── eliminar_usuario.php
+│   ├── reporte_accesos.php
+│   ├── reporte_impresiones.php
+│   ├── reporte_registros.php
+│   ├── reportes.php
+│   └── usuarios.php
+│
+├── acceso.php 
+├── carga_masiva.php
+├── editar_persona.php
+├── eliminar_persona.php
+├── imprimir.php
+├── index.php.php
+├── listado_eliminados.php
+├── login.php
+├── logout.php
+├── panel.php
+├── prueba.php
+├── recuperar.php
+├── recuperar_persona.php
+├── registro.php
+├── registro_existoso.php
+├── registro_usuario.php
+├── reset_password.php
+├── test.php
+├── test_config.php
+├── test_conection.php
+├── test_db.php
+│
+├── ejemplo_carga_masiva.csv
+└──.htaccess
