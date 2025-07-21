@@ -1,0 +1,4 @@
+id_categoria,id_documento,nro_documento,apellido_paterno,apellido_materno,nombres,pais,empresa,cargo,telefono,email,data01,data02,data03,data04,data05
+1,1,12345678,Perez,Gonzales,Juan,Peru,Oz Merchandising,Gerente,999888777,jperez@oz.com,dato1,dato2,dato3,dato4,dato5
+2,2,20123456789,Rodriguez,,Maria,Chile,Acme Corp,Directora,987654321,mrodriguez@acme.com,,,,,
+3,3,AB123456,Gomez,Sanchez,Carlos,Argentina,,,555444333,cgomez@gmail.com,,,,,
